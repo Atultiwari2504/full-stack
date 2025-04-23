@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static{
+            background-color: blue;
+            width: 200px;
+            height: 100px;
+            position: static;
+        }
+        .absolute{
+            background-color: rgb(0, 255, 76);
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            /* top: 200px; */
+            /* z-index: 2; */
+        }
+        .relative{
+            background-color: rgb(255, 0, 106);
+            width: 200px;
+            height: 100px;
+            position: relative;
+        }
+        .main{
+            background-color: black;
+            height: 100px;
+            width: 300px;
+            position: relative;
+        }
+        .fixed{
+            background-color: blue;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+        }
+        .atul{
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">static</div>
+    <div class="atul">atul</div>
+    <div class="relative">relative</div>
+    <div class="fixed">fixed</div>
+    <div class="main">
+        <div class="absolute">absolute</div>
+    </div>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum distinctio corporis vitae temporibus saepe cumque necessitatibus veniam recusandae doloribus! Qui cum adipisci ex repellat a. Et molestias similique enim perferendis.</div>
+</body>
+</html>
